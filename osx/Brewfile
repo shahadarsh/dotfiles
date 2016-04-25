@@ -1,0 +1,32 @@
+tap homebrew/dupes
+tap homebrew/versions
+
+update 
+
+#basic
+install google-chrome
+install skype
+install iterm2
+install zsh
+install vim --with-lua --override-system-vi
+brew install autojump
+
+#dev
+install ruby
+install java
+install scala
+install screenhero
+install sublime-text
+install intellij-idea
+install sourcetree
+install virtualbox
+install vagrant
+install docker-machine
+install docker 
+install docker-compose 
+install postman
+install openconnect
+install node
+
+#optional
+install hipchat
