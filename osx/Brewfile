@@ -1,32 +1,60 @@
-tap homebrew/dupes
-tap homebrew/versions
+tap 'caskroom/cask'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+tap 'phinze/cask'
 
-update 
+#basic 
+cask 'firefox'
+cask 'google-chrome'
+cask 'screenhero'
+cask 'skype'
 
-#basic
-install google-chrome
-install skype
-install iterm2
-install zsh
-install vim --with-lua --override-system-vi
-brew install autojump
-
-#dev
-install ruby
-install java
-install scala
-install screenhero
-install sublime-text
-install intellij-idea
-install sourcetree
-install virtualbox
-install vagrant
-install docker-machine
-install docker 
-install docker-compose 
-install postman
-install openconnect
-install node
+#development 
+cask 'java'
+brew 'pkg-config'
+brew 'libyaml'
+brew 'openssl'
+brew 'ansible'
+brew 'ant'
+brew 'autoconf'
+brew 'autojump'
+brew 'automake'
+brew 'docker'
+brew 'docker-machine'
+brew 'docker-compose'
+brew 'gdbm'
+brew 'gettext'
+brew 'gitup'
+brew 'gmp'
+brew 'libtasn1'
+brew 'nettle'
+brew 'gnutls'
+brew 'libgpg-error'
+brew 'libksba'
+brew 'libtool'
+brew 'maven'
+brew 'mongodb'
+brew 'node'
+brew 'openconnect'
+brew 'pcre'
+brew 'perl'
+brew 'readline'
+brew 'sqlite'
+brew 'python'
+brew 'ruby'
+brew 'sbt'
+brew 'scala'
+brew 'vim'
+brew 'zsh'
+cask 'intellij-idea'
+cask 'iterm2'
+cask 'postman'
+cask 'sublime-text'
+cask 'vagrant'
+cask 'virtualbox'
 
 #optional
-install hipchat
+cask 'hipchat'
