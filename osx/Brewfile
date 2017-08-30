@@ -53,6 +53,7 @@ cask 'postman'
 cask 'sublime-text'
 cask 'vagrant'
 cask 'virtualbox'
+brew 'terraform'
 
 cask 'slack'
 cask 'kindle'
