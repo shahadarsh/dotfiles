@@ -11,6 +11,8 @@ cask 'firefox'
 cask 'google-chrome'
 cask 'skype'
 cask 'lastpass'
+cask 'kindle'
+cask 'slack'
 
 #development 
 cask 'java'
@@ -55,5 +57,7 @@ cask 'vagrant'
 cask 'virtualbox'
 brew 'terraform'
 
-cask 'slack'
-cask 'kindle'
+#devops
+#hashicorp
+brew 'packer'
+brew 'consul'
